@@ -1,0 +1,34 @@
+EXPLORATORY DATA ANALYSIS – AIR QUALITY
+
+**1. Objective**
+
+To investigate whether cities with more air-quality monitoring stations have higher average pollutant values.
+
+**2. Hypothesis**
+
+Cities with a larger number of monitoring stations may have higher average pollution levels.
+
+**3. Analysis and Evidence**
+
+The dataset was grouped by city. The number of unique monitoring stations and average pollutant values were calculated for each city.
+
+The analysis produced these results:
+
+- Pearson correlation: 0.12
+- Spearman correlation: 0.0825
+- Cities with fewer stations: 224
+- Cities with more stations: 69
+- Average pollution in cities with fewer stations: 46.72
+- Average pollution in cities with more stations: 49.95
+
+**4. Initial Pattern Investigated**
+
+Some cities with more monitoring stations appeared to have higher pollution values. However, the correlation analysis showed that this pattern was very weak and did not hold consistently across cities.
+
+**5. Final Finding**
+
+The number of monitoring stations has almost no relationship with the average pollutant values in this dataset. More monitoring stations do not necessarily mean higher pollution.
+
+**6. Conclusion**
+
+The analysis shows that monitoring station count alone is not a reliable indicator of pollution levels. Other factors may influence air quality and should be investigated.
